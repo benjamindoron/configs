@@ -7,6 +7,7 @@ https://iplists.firehol.org/files/coinbl_hosts_browser.ipset
 https://iplists.firehol.org/files/coinbl_ips.ipset
 https://iplists.firehol.org/files/et_block.netset
 https://iplists.firehol.org/files/et_compromised.ipset
+https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt
 https://iplists.firehol.org/files/firehol_level2.netset
 https://iplists.firehol.org/files/firehol_level3.netset
 https://iplists.firehol.org/files/firehol_webclient.netset
