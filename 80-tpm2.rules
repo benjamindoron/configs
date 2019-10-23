@@ -1,0 +1,3 @@
+# tpm2 devices need to be world-readable and -writable
+SUBSYSTEM=="tpm", ACTION=="add", MODE="0666"
+SUBSYSTEM=="tpmrm", ACTION=="add", MODE="0666"
