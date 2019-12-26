@@ -245,10 +245,10 @@ upstream_recursive_servers:
 #      - digest: "sha256"
 #        value: 7ftvIkA+UeN/ktVkovd/7rPZ6mbkhVI7/8HnFJIiLa4=
 ## Google
-#  - address_data: 8.8.8.8
-#    tls_auth_name: "dns.google"
-#  - address_data: 8.8.4.4
-#    tls_auth_name: "dns.google"
+  - address_data: 8.8.8.8
+    tls_auth_name: "dns.google"
+  - address_data: 8.8.4.4
+    tls_auth_name: "dns.google"
 ## Adguard Default servers
 #  - address_data: 176.103.130.130
 #    tls_auth_name: "dns.adguard.com"
@@ -356,10 +356,10 @@ upstream_recursive_servers:
   - address_data: 2606:4700:4700::1001
     tls_auth_name: "cloudflare-dns.com"
 ## Google
-#  - address_data: 2001:4860:4860::8888
-#    tls_auth_name: "dns.google"
-#  - address_data: 2001:4860:4860::8844
-#    tls_auth_name: "dns.google"
+  - address_data: 2001:4860:4860::8888
+    tls_auth_name: "dns.google"
+  - address_data: 2001:4860:4860::8844
+    tls_auth_name: "dns.google"
 ## Adguard Default servers
 #  - address_data: 2a00:5a60::ad1:0ff
 #    tls_auth_name: "dns.adguard.com"
