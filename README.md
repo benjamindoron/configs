@@ -13,7 +13,7 @@ A scratch space for me/contains personal files
 
 ### NetworkManager commands
 
-`nmcli c modify <network UUID> <connection.type, e.g. 802-11-wireless>.cloned-mac-address random|stable|permanent`
+`nmcli c modify <network UUID> <connection.type, e.g. 802-11-wireless>.cloned-mac-address random|stable`
 
 ```shell
 nmcli c down <UUID of active network>
