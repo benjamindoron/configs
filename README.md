@@ -16,6 +16,11 @@ A scratch space for me/contains personal files
 `nmcli c modify <network UUID> <connection.type, e.g. 802-11-wireless>.cloned-mac-address random|stable`
 
 ```shell
+nmcli c modify <network UUID> ipv4.dhcp-send-hostname no
+nmcli c modify <network UUID> ipv6.dhcp-send-hostname no
+```
+
+```shell
 nmcli c down <UUID of active network>
 nmcli c up <UUID of active network>
 ```
