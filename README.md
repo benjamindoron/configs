@@ -8,6 +8,7 @@ A scratch space for me/contains personal files
 - alternate-nouveau_nvidia.sh switches the graphics driver between nouveau and the NVIDIA binary driver. It should be executed directly
 - filter.list is a list of ipset rules
 - journald.conf is set to the Fedora defaults, but disables kernel logging. It should be placed in /etc/systemd/
+- stubby.service is set to the Fedora defaults, but runs after the network could be available. It should be placed in /usr/lib/systemd/system/
 - stubby.yml contains a configuration for the stubby DoT resolver. It should be placed in /etc/stubby/
 - sysctl.conf contains a small set of tweaks designed to improve security. It should be placed in /etc/
 
@@ -24,3 +25,7 @@ nmcli c modify <network UUID> ipv6.dhcp-send-hostname no
 nmcli c down <UUID of active network>
 nmcli c up <UUID of active network>
 ```
+
+### Run these after a fresh install
+
+`sudo update-crypto-policies --set NEXT`
