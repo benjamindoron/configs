@@ -11,6 +11,7 @@ A scratch space for me/contains personal files
 - stubby.service is set to the Fedora defaults, but runs after the network could be available. It should be placed in /usr/lib/systemd/system/
 - stubby.yml contains a configuration for the stubby DoT resolver. It should be placed in /etc/stubby/
 - sysctl.conf contains a small set of tweaks designed to improve security. It should be placed in /etc/
+- vncserver@:1.service is a systemd unit file for TigerVNC. It should be placed in /usr/lib/systemd/system/
 
 ### NetworkManager commands
 
