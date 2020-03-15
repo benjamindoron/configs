@@ -1,6 +1,6 @@
-# private
+# configs
 
-A scratch space for me/contains personal files
+A scratch space for me/contains config files
 
 - 00-macrandomise.conf is a NetworkManager config file that enables random MAC address creation per-AP. It should be placed in /etc/NetworkManager/conf.d/
 - 80-clevis-udisks2.rules is a Polkit rule that enables admin users to use clevis-udisks2 without authentication, allowing automatic decryption and mounting of udisks2 hard drives. It should be placed in /etc/polkit-1/rules.d/
