@@ -12,7 +12,6 @@ https://iplists.firehol.org/files/firehol_webclient.netset
 https://iplists.firehol.org/files/malwaredomainlist.ipset
 https://iplists.firehol.org/files/normshield_high_attack.ipset
 https://iplists.firehol.org/files/normshield_high_bruteforce.ipset
-https://iplists.firehol.org/files/ransomware_rw.ipset
 https://www.spamhaus.org/drop/dropv6.txt
 https://iplists.firehol.org/files/spamhaus_edrop.netset
 https://iplists.firehol.org/files/urlvir.ipset
