@@ -2,14 +2,11 @@ https://iplists.firehol.org/files/alienvault_reputation.ipset
 https://iplists.firehol.org/files/bambenek_c2.ipset
 https://iplists.firehol.org/files/bds_atif.ipset
 https://iplists.firehol.org/files/bi_any_2_30d.ipset
-https://iplists.firehol.org/files/blocklist_net_ua.ipset
 https://iplists.firehol.org/files/et_block.netset
 https://iplists.firehol.org/files/et_compromised.ipset
-https://feodotracker.abuse.ch/downloads/ipblocklist.txt
 https://iplists.firehol.org/files/firehol_level2.netset
 https://iplists.firehol.org/files/firehol_level3.netset
 https://iplists.firehol.org/files/firehol_webclient.netset
-https://iplists.firehol.org/files/malwaredomainlist.ipset
 https://iplists.firehol.org/files/normshield_high_attack.ipset
 https://iplists.firehol.org/files/normshield_high_bruteforce.ipset
 https://www.spamhaus.org/drop/dropv6.txt
